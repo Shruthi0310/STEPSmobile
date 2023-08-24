@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "StepsMobile",
+    "slug": "StepsMobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
