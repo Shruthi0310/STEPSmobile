@@ -1,0 +1,30 @@
+@mixin h16-bold {
+  font-family: 'Verdana';
+  font-size: 16px;
+  font-weight: 800;
+}
+
+@mixin h12-bold {
+  font-family: 'Verdana';
+  font-size: 12px;
+  font-weight: 800;
+}
+
+@mixin h12-semibold {
+  font-family: 'Verdana';
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@mixin h12-light {
+  font-family: 'Verdana';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@mixin b12-regular {
+  font-family: 'Verdana';
+  font-size: 12px;
+  font-weight: 600;
+}
+
