@@ -1,0 +1,12 @@
+@import '../styles/typography.scss';
+
+.container {
+  border: 1px solid #7CACC0;
+  align-self: flex-start;
+  padding: 5px;
+}
+
+.text {
+  @include b12-regular;
+  color: #4B4F50;
+}

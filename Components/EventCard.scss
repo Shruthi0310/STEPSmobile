@@ -1,0 +1,40 @@
+@import '../styles/typography.scss';
+
+.container {
+  width: auto;
+  background-color: #D9D9D9;
+  align-items: center;
+}
+
+.eventcard-wrapper {
+  width: 90%;
+}
+
+.image {
+  width: auto;
+  height: 200px;
+  margin-top: 16px;
+}
+
+.details {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.title {
+  @include h16-bold;
+  margin-top: 5px;
+}
+
+.desc-wrap {
+  flex-direction: row;
+}
+
+.desc {
+  @include h12-light;
+  padding-left: 5px;
+}
+
+.tags {
+  margin-top: 11px;;
+}
