@@ -1,0 +1,23 @@
+@import '../styles/typography.scss';
+
+.container {
+  background-color: #1A1919;
+  flex-direction: row;
+  height: 83px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text {
+  @include h12-light;
+  color: #ffffff;
+  max-width: 89px;
+  padding-left: 10px;
+
+  &-copyright {
+    color: #989292;
+    max-width: 58px;
+  }
+}
+
