@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import EventCard from './Components/EventCard';
 import Tags from './Components/Tags';
 import Footnote from './Components/Footnote';
+import EventList from './Components/EventList';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <StatusBar style="auto" />
       <EventCard></EventCard>
       <Footnote></Footnote>
+      <EventList></EventList>
     </View>
   );
 }
